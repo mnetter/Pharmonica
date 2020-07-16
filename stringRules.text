@@ -1,0 +1,55 @@
+All
+						a. single vowels can follow single vowels
+						b. single vowels cant follow double vowels
+						c. single vowels can follow single consonants
+						d. single vowels can follow double consonants
+						e. double vowels cant follow single vowels
+						f. double vowels cant follow double vowels
+						g. double vowels can follow single consonants
+						h. double vowels can follow double consonants
+						i. single consonants can follow double vowels
+						j. single consonants cant follow double consonants
+						k. single consonants can follow single vowels
+						l. single consonants cant follow single consonants
+						m. double consonants can follow double vowels
+						n. double consonants cant follow double consonants
+						o. double consonants can follow single vowels
+						p. double consonants cant follow single consonants.
+						q. The new string can't equal the previous string.
+						
+yes
+						a. single vowels can follow single vowels
+						
+						c. single vowels can follow single consonants
+						d. single vowels can follow double consonants
+						
+						f. double vowels cant follow double vowels
+						g. double vowels can follow single consonants
+						h. double vowels can follow double consonants
+						i. single consonants can follow double vowels
+						
+						k. single consonants can follow single vowels
+						
+						m. double consonants can follow double vowels
+						
+						o. double consonants can follow single vowels
+						
+						
+no
+						
+						
+						
+						e. double vowels cant follow single vowels
+						f. double vowels cant follow double vowels
+						
+						
+						
+						j. single consonants cant follow double consonants
+						
+						l. single consonants cant follow single consonants
+						
+						n. double consonants cant follow double consonants
+						
+						p. double consonants cant follow single consonants.
+						q. The new string can't equal the previous string.
+						

@@ -1,0 +1,257 @@
+NEWEST ON TOP.
+7/14/20  Tuesday 8:16 pm 25 min HARD STOP
+Todays sourcefile is Pharm5.c
+Next steps
+ 
+Added user input to determine number of names:  Done at 10:59 :)
+(outside loop)
+Installed git
+
+
+
+Next 
+look at github
+	1. Premise: The source file from desktop should control
+	2. Add git to this computer
+	3. Delete the repository on github
+	4. Push the Dev directory to github  
+
+
+Next next:
+Use strings, not characters, i.e. "EE"  "PH"  "TH"  "IE"
+
+Next next 
+Look at adding more complex rules from the original file
+Look at a way to convert to proper case AFTER selection of the phonemes.
+Look at normal way to accept user input, i.e. getch (?)
+
+
+
+
+7/?/20
+Opened github account
+pushed files from laptop to github
+
+
+
+7/8/20 Wednesday pm 7:53 25 min hard stop
+Today:
+
+Added user input to detemine length of name
+I was able to figure this out in 25 using stuff from Zed
+
+Next steps
+ 
+Add user input to determine number of names
+
+Next next  
+Look at adding more complex rules from the original file
+
+Next next next
+look at github
+
+
+
+7/7/20 Tuesday nigh 7:04 pm 25 hard stop
+
+explore solution to range
+
+TOday:
+I wrote from scratch a working Pharmonica.
+I deduced the range algorithm
+These were big steps
+
+Next
+Add user input to detemine length of name
+Look at github
+
+Next next
+Add user input to determine number of names
+
+Next next next
+Look at adding more complex rules from the original file
+
+
+
+
+
+
+7/3/20 Friday night 7:49 am  25 min hard stop
+
+Today:
+1.see if the between range thingy is even working by commenting out the first part
+2. if it is not, concentrate on fixing that
+cd 
+
+
+here is the solution from :https://www.geeksforgeeks.org/generating-random-number-range-c/
+
+num = (rand() % (upper – lower + 1)) + lower
+
+Next steps
+1. Replace the upper and lower nonsense with an int and see if it works.
+
+2.Fix the f try to fix the if statement
+3. Figure out the next step
+
+
+
+
+7/2/20 Thursday 5:04 pm  25 min hard stop
+Today:
+todays file is Pharm.c
+Lengthen the array.  Have an region of vowels. Have a region of consonants.
+
+Was able to see it pick a range from 0 to end of vowels but couldn't get it 
+randomly pick from 5 to 10 (consonants)
+
+Next steps:
+1.see if the between range thingy is even working by commenting out the first part
+2. if it is not, concentrate on fixing that
+3. if you finish 2, try to fix the if statement
+
+
+
+6/30/20 Tuesday evening 25 min hard stop
+Today:
+The reason that you were needing to subdivide seconds is because the srand()
+was in the loop.   I found an example Pharm3.c that works perfectly fine
+without subdividing the seconds. Put the srand outside of the loop.
+
+No need to learn how to subdivide time now.
+
+We have working code, spitting out a randomly written  string.
+
+Next steps:
+
+1. Lengthen the array.  Have an region of vowels. Have a region of consonants.
+2. Set up a simple binary rule and generate a string randomly.
+
+
+
+
+
+
+6/29/20 Monday evening  20 minutes hard stop
+
+Today:
+
+Subdivide time so that you are not waiting for the output
+
+https://stackoverflow.com/questions/3756323/how-to-get-the-current-time-in-milliseconds-from-c-in-linux/17083824    LOOK FARTHER DOWN ON PAGED
+
+Next steps:
+
+Implement the above so that you can get faster output
+
+
+1.We know how to randomly choose an element.
+Let's take that element and add it to a string.
+2. Let's loop that and us sconcat() to build a string.
+
+
+
+
+
+
+6/25/20 A friday night
+
+Today:
+1. Got unstuck.  %c is the format for char.  <arrayname>[i] is the syntax to return the value 
+   of an element
+2. Let's see how to randomly choose an element.
+
+I did it .  New method.  Keep search for that tightly scoped solution.  Don't go too far
+down rabbit holes.   Get out and look elsewhere.  Rest at correct intervals.
+
+I was able to get it to randomly choose the values.
+
+Storm is here have to log off.
+
+
+
+
+6/24/20
+
+Today: 
+1. Poked around the Pharmonica directory
+2. Need a simple starting point - declare an array and print contents
+
+was able to print portions of the array but not individual elements 
+	   
+	   Maybe make them strings "a", vs 'a'?
+	   
+	   Phar1.c is the file
+
+
+NextStep:  Spend about 5 minutes entering zeds
+	   Fix the problem above.  And don't go over 25 minutes, Matt.
+	   
+
+
+
+
+6/24/20
+
+I copied the matts and Pharmonica file to the LCTHW and Dev directories.
+umount worked within the directory where the media was located
+
+I entered a little bit of exercise 18 before the beeper beeped.
+
+HardStop :)
+
+NextStep:  Spend about 5 minutes entering zeds
+	   Spend about 10 minutes planning what part of Pharmonica you want to build
+	   Spend about 10 minutes trying to build and failing
+
+
+
+
+
+6/20/2
+  forgot how to view the name of the usb 
+	its not ls * or ls ..i
+    its in /media/matt/<filename>    
+
+	next runt mount <filename>
+not too much success
+
+I ran the cp command and it didnt' fail but I dont know where it put
+the info
+
+the path was incorrect
+
+the correct  command is
+
+	$cp -r zeds /home/matt/Documents/Dev/LCTHW 
+
+ok success
+
+now to umount
+oops. cant do it from withing the directory - go down
+A
+A
+success 
+
+ 
+
+6/18/20   
+learned mount and umount commands in linux
+because i was trying to copy zeds files into this machine from usb drive
+
+you can run mount from the same director as the usb: $ /media/matt/<name>
+
+$ mount
+and then you will be able to access the drive
+prior to mounting you will not be able to access the drive
+
+when you are done you must un-mount the drive with the command umount 
+
+if you try to umount from the same directory as the drive it wont work
+go down a directory
+
+NEXT STEPS: MOVE THE FILES
+ 
+  $
+ 
+
