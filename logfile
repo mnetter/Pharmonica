@@ -1,4 +1,28 @@
 NEWEST ON TOP.
+7/20/20  Monday 7:42 pm 25 min HARD STOP
+Todays sourcefile is Pharm5.c
+
+
+Today
+
+Use strings, not characters, i.e. "EE"  "PH"  "TH"  "IE"
+STATUS: COMPLETED AND PUSHED TO GITHUB
+
+Next  
+Look at adding more complex rules from the original file
+
+
+Next next
+Look at a way to convert to proper case AFTER selection of the phonemes.
+Look at normal way to accept user input, i.e. getch (?)
+ 
+
+7/15/20 and 7/16/20
+Added git to HP laptop, Chromebook and Thinkpad
+added SSH keys from all to github
+Everything is now synchronized
+
+
 7/14/20  Tuesday 8:16 pm 25 min HARD STOP
 Todays sourcefile is Pharm5.c
 Next steps
