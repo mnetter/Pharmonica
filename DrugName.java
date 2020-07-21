@@ -32,7 +32,11 @@ class DrugName{
 							{"B","C","D","F","G","H","J","K","L","M","N","P","Q","R","S","T","V","W","X","Z"}
 						3.All the double vowels
 							{"AA","AE","AI","AO","AU","AY","EA","EE","EI","EO","EU","EY","IA","IE","II","IO","IU","IY","OA","OE","OI","OO","OU","OY","UA","UE","UI","UO","UU","UY","YA","YE","YI","YO","YU",YY}
-						4.All the 
+						4.All the double consonants
+{"BB","CC","DD","FF","GG","HH","JJ","KK","LL","MM","NN","PP","QQ","RR","SS","TT","VV","WW","XX","ZZ"}
+
+
+
 				3. create array of strings
 				4. length of array is bound of random methods
 				
